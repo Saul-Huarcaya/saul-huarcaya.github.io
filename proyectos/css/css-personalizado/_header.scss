@@ -1,0 +1,94 @@
+//varibales
+$color_white: white;
+$color_black: black;
+$color_border: #ccc;
+$color_enlace: #006241;
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: $color_white;
+}
+.container-cabecera{
+    border-top: 5px solid $color_black;
+    width: 100%;
+    border-bottom: 1px solid $color_border;
+}
+.container-cabecera{
+    .cabecera{
+        width: 100%;
+        border-bottom: 1px solid $color_border;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenedor-iconos{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        max-width: 1100px;
+        align-items: center;
+        padding: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        .logo{
+            width: 80px;
+        }
+        .bolsa{
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .conatiner-pedido{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+.btn-pedido{
+    visibility: visible;
+    font-size: 0;
+    padding: 0;
+}
+.precio{
+    visibility: hidden;
+    font-size: 0;
+    padding: 0;
+}
+
+
+
+.container-cabecera{
+    .cabecera-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu{
+        margin-top: 8px;
+        margin-bottom: 10px;
+        height: 36px;
+        display: flex;
+        width: 100%;
+        max-width: 1100px;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        a{
+            color: $color_black;
+            font-weight: 700;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0 10px;
+        }
+        a:hover{
+            color: $color_enlace;
+            transition: all 0.3s ease;
+        }
+    }
+    
+}

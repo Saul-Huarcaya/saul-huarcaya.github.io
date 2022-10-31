@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <link rel="stylesheet" href="css/project06.css">
+    <link rel="shortcut icon" href="img/proy6/rick_96136.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title-app">Rick and Morty</h1>
+        <input type="text" class="input-character" id="search" placeholder="Buscar personaje" maxlength="50">
+    </header>
+
+    <main id="main"></main>
+    <img src="img/oval.svg" alt="cargando...." class="loader">
+    <template id="template">
+        <div class="tarjeta">
+            <img class="imagen"/>
+            <div class="contenedor-name">
+                <p class="name"></p>
+            </div>
+            <div class="datos">
+                <div class="row">
+                    <p class="estado">Estado:</p>
+                    <p class="status"></p>
+                </div>
+                <div class="row">
+                    <p class="especie">Especie:</p>
+                    <p class="species"></p>
+                </div>
+            </div>
+        </div>
+    </template>
+    <div class="btnTop">
+        <i class='bx bx-up-arrow-alt'></i>
+    </div>
+
+    <script src="js/project_06.js"></script>
+</body>
+</html>

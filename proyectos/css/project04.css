@@ -1,0 +1,129 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: rgb(29, 31, 27);
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+}
+.header{
+    height: 8rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(29, 31, 27);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.title-app{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+.input-movie{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 0.5rem;
+    width: 300px;
+            
+}
+#main{
+    display: grid;
+    /* grid-template-columns: repeat(4,minmax(240px,1fr)); */
+    align-items: baseline;
+    max-width: 1024px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    gap: 1.5rem;
+    justify-items: start;
+    align-items: center;
+    margin-top: 9rem;
+}
+
+.card{
+    width: 100%;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+.card .contenedor-img{
+    width: 100%;  
+    height: 360px;
+}
+        
+.contenedor-img img{
+    height: inherit;
+}
+.contenedor-texto{
+    padding: 1rem;
+    min-height: 100px;
+    display: flex;
+    max-height: 250px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.25rem;
+    background-color: rgb(8, 8, 8);
+}
+.contenedor-texto p{
+    display: flex;
+    align-items: flex-end;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card:hover{
+    transition: all 0.3 ease-in-out;
+    filter: drop-shadow(0px 0px 8px white);
+}
+.contenedor-texto .title{
+    flex: 1;
+    flex-wrap: wrap;
+}
+.contenedor-texto .year{
+    flex:1;
+}
+.card:hover .contenedor-texto, .card:hover .img{
+    transition: all 0.3 ease-in-out;
+    filter: drop-shadow(0px 0px 10px white);
+}
+.error{
+    display: block;
+}
+@media screen and (min-width:480px){
+    #main{
+        margin: 9rem 1rem 1rem;
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+}
+@media screen and (min-width:768px){
+    #main{
+        grid-template-columns: repeat(3,minmax(0,1fr));
+    }
+}
+@media screen and (min-width:1000px){
+    #main{
+        grid-template-columns: repeat(4,minmax(0,1fr));
+    }
+}
+@media screen and (min-width:1000px){
+    #main{
+        margin-left:auto;
+        margin-right: auto;
+    }
+}

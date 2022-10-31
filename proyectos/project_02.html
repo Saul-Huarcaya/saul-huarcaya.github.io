@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Paises</title>
+    <link rel="stylesheet" href="./css/project02.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <h1 class="title">App de Paises</h1>
+        </nav>
+        
+        <div class="contenedor-busqueda container">
+            <input type="text" placeholder="Buscar País" id="search" class="search">
+            
+            <select name="paises" id="region" class="region">
+                <option value="all">Todos</option>
+                <option value="africa">Africa</option>
+                <option value="americas">America</option>
+                <option value="asia">Asia</option>
+                <option value="europe">Europa</option>
+                <option value="oceania">Oceania</option>
+            </select>
+        </div>
+    </header>
+    <div class="contenedor-error">
+    </div>
+    
+    <main class="main container">
+    </main>
+    <img src="./img/oval.svg" alt="carga...." class="loader">
+
+    <template class="contenedor-paises">
+        <div class="card">
+            <div class="contenedor-img">
+                <img class="img-bandera"/>
+            </div>
+            
+            <div class="contenedor-texto">
+                <h2 class="title-pais"></h2>
+
+                <div class="contenedor-poblacion">
+                    <p class="text-poblacion">Poblacion: </p>
+                    <p class="cantidad-poblacion"></p>
+                </div>
+
+                <div class="contenedor-capital">
+                    <p class="text-capital">Capital: </p>
+                    <p class="title-capital"></p>
+                </div>
+
+                <div class="contenedor-region">
+                    <p class="text-region">Region: </p>
+                    <p class="title-region"></p>
+                </div>
+            </div>
+        </div>
+    </template>
+    <script src="./js/project_02.js"></script>
+</body>
+</html>

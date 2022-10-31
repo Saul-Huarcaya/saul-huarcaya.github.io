@@ -1,0 +1,122 @@
+$color_white: white;
+$color_borde: #ccc;
+$color_footer: #f8f5f2;
+$color_text_footer: #1e3932;
+$color_btn_borde: #1e3932;
+$color_btn_hover: #C5DBD3;
+$color_icono:#212529;
+
+footer{
+    border-top: 1px solid $color_borde;
+    background-color: $color_footer;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+.icono-footer{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    .icono{
+        background-color: $color_footer;
+        width: 60px;
+        border-radius: 50%;
+    }
+}
+.contact{
+    .message{
+        color: $color_text_footer;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
+}
+.container-suscripcion{
+    display: flex;
+    gap: 0.5rem;
+    .input-suscripcion{
+        width: 250px;
+        padding: 0.5rem;
+    }
+    .btn-suscripcion{
+        border: none;
+        border-radius: 5px;
+        border: 1px solid $color_btn_borde;
+        padding: 0.5rem;
+        color: $color_text_footer;
+        font-weight: 600;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1rem;
+    }
+    .btn-suscripcion:hover{
+        background-color: $color_btn_hover;
+        transition: all 0.3s ease;
+    }
+}
+
+.footer-enlaces{
+    padding-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    gap: 1.5rem;
+    .footer-enlaces-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+    }
+    .footer-enlace-title{
+        margin-bottom: 0.6rem;
+        text-align: center;
+        font-weight: 700;
+        font-size: 1rem;
+        color: $color_text_footer;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    a{
+        margin: 0.35rem 0;
+        text-transform: uppercase;
+        color: $color_text_footer;
+        font-weight: 700;
+        font-size: 12px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: color .3s ease-out;
+    }
+}
+.libro-reclamaciones{
+    background: url("../../img/proy5/sprite-sb_v3.png") no-repeat;
+    background-color: $color_footer;
+    width: 120px;
+    height: 100px;
+    background-position: -340px -310px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.container-redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h5{
+        color: $color_text_footer;
+        font-weight: 700;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+    }
+    .redes{
+        i{
+            margin: 1rem 0;
+            color: $color_icono;
+            font-size: 2rem;
+            border-radius: 10px;
+        }
+    }
+}

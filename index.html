@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Saul Huarcaya Frontend Developer</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="assets/img/code.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="contenedor-logo">
+                <a href="#home" class="logo"><span class="letter-logo">S</span>H</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__toggle" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link activo">home</a></li>
+                    <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
+                    <li class="nav__item"><a href="#Skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>       
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <!----------------------------------------------Home--------------------------------------------------->
+        <section class="home section" id="home">
+             <div class="home__container container">
+                <div class="home__data">
+                    <h1 class="home__title"><span class="one-letter">W</span>eb Developer</h1> 
+                    <p class="home__description">Hola Soy Saul huarcaya un apasionado por la tecnología me considero entusiasta y perseverante en lo que hago.</p>
+                    <a href="./assets/CV/CV-SAUL-HUARCAYA-QUISPE.pdf" download class="btn-cv download-desktop">    
+                        <span>Descargar CV</span>
+                    </a>
+                </div>
+                <div class="home__img">
+                    <img src="assets/img/001212518.jpg" alt="perfil" class="img-home">
+                    <a href="./assets/CV/CV-SAUL-HUARCAYA-QUISPE.pdf" download class="btn-cv download-mobile">    
+                        <span>Descargar CV</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!---------------------------------------------Projects------------------------------------------------>
+        <section class="project section" id="project">
+            <div class="container_project container">
+                <h2 class="section-title title_project">Project</h2>
+                <div class="container__projects">
+                    <div class="card">
+                        <h2 class="project-title">Rick and Morty</h2>
+                        <P class="description-project">Aplicación para buscar los personajes de Rick and Morty con scroll infinito. Desarrollado con HTML, CSS , JavaScript además de utilizar la Api de Rick and Morty.</P>
+                        <div class="contenedor-btn-project">
+                            <a href="./proyectos/project_06.html" class="btn-project" target="_blank">
+                                <i class='bx bx-chevron-right'></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2 class="project-title">App de Países</h2>
+                        <P class="description-project">Aplicación que busca todos los países, mediante la región o por su nombre. Desarrollada con HTML, CSS , JavaScript y además de utilizar la Api RestCountries.</P>
+                        <div class="contenedor-btn-project">
+                            <a href="./proyectos/project_02.html" class="btn-project" target="_blank">
+                                <i class='bx bx-chevron-right'></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2 class="project-title">¡Piedra! ¡Papel! ¡Tijera!</h2>
+                        <P class="description-project">Es un juego simple con normas básicas piedra gana a tijera , papel gana a piedra y tijera gana a papel. Desarrollado con HTML, CSS y JavaScript</P>
+                        <div class="contenedor-btn-project">
+                            <a href="./proyectos/project_01.html" class="btn-project" target="_blank">
+                                <i class='bx bx-chevron-right center'></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2 class="project-title">Pagina Responsiva</h2>
+                        <P class="description-project">Clon responsivo de la página Starbucks Perú. Desarrollada con HTML , procesador de css (sass) , CSS y JavaScript</P>
+                        <div class="contenedor-btn-project">
+                            <a href="./proyectos/project_05.html" class="btn-project" target="_blank">
+                                <i class='bx bx-chevron-right'></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2 class="project-title">Juego de Memoria</h2>
+                        <P class="description-project">Es un juego con una temática sencilla encontrar el par de la carta. Desarrollada con HTML, CSS y JavaScript además de utilizar las imágenes de la pokeapi.</P>
+                        <div class="contenedor-btn-project">
+                            <a href="./proyectos/project_03.html" class="btn-project" target="_blank">
+                                <i class='bx bx-chevron-right'></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2 class="project-title">App de Peliculas</h2>
+                        <P class="description-project">Aplicación que sirve para encontrar todo tipo de películas utilizando el api de omdbapi. Desarrollada con HTML, CSS y JavaScript</P>
+                        <div class="contenedor-btn-project">
+                            <a href="./proyectos/project_04.html" class="btn-project" target="_blank">
+                                <i class='bx bx-chevron-right'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!---------------------------------------------Skills------------------------------------------------>
+        <section class="skill section" id="Skills">
+            <div class="container_skill">               
+                <h2 class="section-title title_skill">Skills</h2>
+                <div class="contenedor__skills container">
+                    <div class="article-skill">
+                        <h3 class="title-skill-card">HMTL 5</h3>
+                        <div class="contenedor-img-skill">
+                            <img src="assets/img/redes/html-5.png" alt="logo css" class="logo-css">
+                        </div>
+                    </div>
+
+                    <div class="article-skill">
+                        <h3 class="title-skill-card">CSS</h3>
+                        <div class="contenedor-img-skill">
+                            <img src="assets/img/redes/css-3.png" alt="logo css" class="logo-css">
+                        </div>
+                    </div>
+
+                    <div class="article-skill">
+                        <h3 class="title-skill-card">Java Script</h3>
+                        <div class="contenedor-img-skill">
+                            <img src="assets/img/redes/js.png" alt="logo css" class="logo-css">
+                        </div>
+                    </div>
+
+                    <div class="article-skill">
+                        <h3 class="title-skill-card">PHP</h3>
+                        <div class="contenedor-img-skill">
+                            <img src="assets/img/redes/php.png" alt="logo css" class="logo-css">
+                        </div>
+                    </div>
+
+                    <div class="article-skill">
+                        <h3 class="title-skill-card">SQL</h3>
+                        <div class="contenedor-img-skill">
+                            <img src="assets/img/redes/sql.png" alt="logo css" class="logo-css">
+                        </div>
+                    </div>
+
+                    <div class="article-skill">
+                        <h3 class="title-skill-card">MYSQL</h3>
+                        <div class="contenedor-img-skill">
+                            <img src="assets/img/redes/mysql.png" alt="logo css" class="logo-css">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-------------------------------------------contact--------------------------------------------------->
+        <section class="contact section" id="contact">
+            <h2 class="section-title title_contact">Contact</h2>
+            <div class="contact__container container">
+                <form class="contact__form">
+                    <input type="text" name="nombre" placeholder="Nombre" class="contact__input" title="El nombre solo acepta letra y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+
+                    <input type="email" name="email" placeholder="ejemplo@gmail.com" class="contact__input"   
+                    title="Email incorrecto" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required>
+
+                    <textarea name="comentario" placeholder="Escribe tus comentarios" cols="50" rows="10" class="contact__input" title="Tu comentario no debe exceder los 255 caracteres" data-pattern="^.{1,255}$" required></textarea>
+
+                    <input type="submit" value="Enviar" class="contact__button button">
+
+                    <div class="contact-form-loader none">
+                        <img src="assets/img-svg/oval.svg" alt="Cargando" class="white">
+                    </div>
+
+                    <div class="contact-form-response none">
+                        <p>Los datos han sido enviados 😀</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <!------------------------------------------ footer -------------------------------------------------->
+    <footer class="footer">
+        <p class="footer__title">Redes</p>
+
+        <div class="footer__social">
+            <a href="https://www.facebook.com/saul.huarcaya.1/" class="footer__icon" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="https://wa.me/51940970193" class="footer__icon" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            <a href="https://linkedin.com/in/saul-huarcaya-quispe-b1504322b" class="footer__icon" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <p>&#169; Derechos Reservados - 2022</p>
+    </footer>
+
+    <div class="scroll-top hidden">
+        <i class='bx bxs-chevron-up'></i>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script> 
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/validacion.js"></script>
+</body>
+</html>
+

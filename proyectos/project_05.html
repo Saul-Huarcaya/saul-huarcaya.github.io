@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Responsiva Realizada con Procesador de css</title>
+    <link rel="stylesheet" href="./css/css-personalizado/project05.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="container-cabecera">
+            <div class="cabecera">
+                <div class="contenedor-iconos">
+                    <a href="#">
+                        <img src="img/proy5/logo.webp" alt="logo" class="logo">
+                    </a> 
+                    <div class="conatiner-pedido">
+                        <a href="#" class="btn-pedido">Empieza tu pedido</a>
+                        <img src="img/proy5/icono-bolsa.png" alt="bolsa" class="bolsa">
+                        <span class="precio">s/0.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cabecera-menu">
+                <div class="menu">
+                    <a href="#bebidas">BEBIDAS</a>
+                    <a href="#alimentos">ALIMENTOS</a>
+                    <a href="#packYBoxes">PACKS Y BOXES</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="contenedor-input container">
+            <input type="text" placeholder="¿Qué se te antoja?" class="input">
+        </div>
+
+        <div class="contenedor-carrusel container">
+            <div class="carrusel">
+                <div class="carrusel-img">
+                    <div class="item-carrusel activo">
+                        <img src="./img/proy5/Banner-bebidas_A_V2.png" alt="banner de bebidas A">
+                    </div>
+                    <div class="item-carrusel">
+                        <img src="./img/proy5/Banner-bebidas_B_V2.png" alt="banner de bebidas B">
+                    </div>
+                </div>
+                <div class="carrusel-botones">
+                    <a class="atras" href="#">&laquo;</a>
+                    <a class="siguiente" href="#">&raquo;</a>
+                </div>
+            </div>
+            <div class="contenedor-posicion container">
+                <div class="posicion posicion-activa"></div>
+                <div class="posicion"></div>
+            </div>
+            <div class="comprar">
+                <img src="img/proy5/home_V1.png" alt="home">
+            </div>
+        </div>
+        
+        <div class="contenedor-productos">
+            <section class="container productos" id="bebidas">
+                <div class="contenedor-title-producto">
+                    <h2 class="title-producto">BEBIDAS</h2>
+                </div>
+
+                <div class="row-productos">
+                    <article class="producto">
+                        <img src="img/proy5/bebidas/ULTIMATE_CARAMEL_FRAPP_V3.png" alt="Frappuccinos">
+                        <h3 class="name-bebida">Frappuccinos®</h3>
+                    </article>
+
+                    <article class="producto">
+                        <img src="img/proy5/bebidas/LATTE_MACHIATTO_V3.png" alt="Espresso Caliente">
+                        <h3 class="name-bebida">Espresso Caliente</h3>
+                    </article>
+
+                    <article class="producto">
+                        <img src="img/proy5/bebidas/CARAMEL_MACCHIATO_HELADO_V3.png" alt="">
+                        <h3 class="name-bebida">Espreso Frío</h3>
+                    </article>
+
+                    <article class="producto">
+                        <img src="img/proy5/bebidas/CHOCOLATE_CALIENTE_V3.png" alt="bebidas calientes">
+                        <h3 class="name-bebida">otras bebidas calientes</h3>
+                    </article>
+
+                    <article class="producto">
+                        <img src="img/proy5/bebidas/STRAWBERRY_GREEN_TEA_V3.png" alt="Bebidas Frias">
+                        <h3 class="name-bebida">otras bebidas Frias</h3>
+                    </article>
+
+                    <article class="producto">
+                        <img src="img/proy5/bebidas/PINK_DRINK_V3.png" alt="Refreshers">
+                        <h3 class="name-bebida">Refreshers®</h3>
+                    </article>
+                    <article class="producto">
+                        <img src="img/proy5/bebidas/ICED_AVELLANA_OATMILK_SHAKEN_ESPRESSO_V1.png" alt="Shaken Espresso">
+                        <h3 class="name-bebida">Shaken Espresso</h3>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container productos" id="alimentos">
+                <div class="contenedor-title-producto">
+                    <h2 class="title-producto">ALIMENTOS</h2>
+                </div>
+                <div class="row-productos">
+                    <article class="producto">
+                        <img src="img/proy5/ALIMENTOS/MUFFIN_DE_NARANJA_Y_CHOCOCHIPS_V3.png" alt="Patries">
+                        <h3 class="name-bebida">Pastries</h3>
+                    </article>
+
+                    <article class="producto">
+                        <img src="img/proy5/ALIMENTOS/CHEESECAKE_DE_CHOCOLATE_V3.png" alt="Postres">
+                        <h3 class="name-bebida">Postres</h3>
+                    </article>
+                    <article class="producto">
+                        <img src="img/proy5/ALIMENTOS/SANDWICH_DE_PAVITA_Y_QUESO_V3.png" alt="Sandwiches">
+                        <h3 class="name-bebida">Sandwiches</h3>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container productos" id="packYBoxes">
+                <div class="contenedor-title-producto">
+                    <h2 class="title-producto">PACKS Y BOXES</h2>
+                </div>
+                <div class="row-productos">
+                    <article class="producto">
+                        <img src="img/proy5/PACKS/DESAYUNO_PARA_DOS_V4.png" alt="Bebidas Frias">
+                        <h3 class="name-bebida">Antojos de la tarde</h3>
+                    </article>
+
+                    <article class="producto">
+                        <img src="img/proy5/PACKS/PACK_ANTOJOS_V3.png" alt="Refreshers">
+                        <h3 class="name-bebida">Desayunos</h3>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="icono-footer">
+                <img src="img/proy5/starbucks.png" alt="dwd" class="icono">
+            </div>
+            <div class="contact">
+                <p class="message">¿Quieres estar al tanto de nuestras promociones y beneficios?</p>
+                <p class="message">¡Déjanos tu correo!</p>
+                <div class="container-suscripcion">
+                    <input type="text" class="input-suscripcion">
+                    <input type="submit" value="SUSCRIBIRME" class="btn-suscripcion">
+                </div>
+            </div>
+
+            <div class="footer-enlaces">
+                <div class="footer-enlaces-container">
+                    <h4 class="footer-enlace-title">SOBRE NOSOTROS</h4>
+                    <a href="#">nuestra misión</a>
+                    <a href="#">tiendas,horarios y zona de cobertura</a>
+                    <a href="#">starbucks stories</a>
+                </div>
+
+                <div class="footer-enlaces-container">
+                    <h4 class="footer-enlace-title">STARBUCKS RWARDS</h4>
+                    <a href="#">Starbucks reward</a>
+                    <a href="#">Preguntas frecuentes</a>
+                    <a href="#">Términos y condiciones</a>
+                    <a href="#">Política de privacidad</a>
+                </div>
+
+                <div class="footer-enlaces-container">
+                    <h4 class="footer-enlace-title">CONTACTO Y ATENCIÓN AL CLIENTE</h4>
+                    <a href="#">Whatsapp (01)123-4567</a>
+                    <a href="#">Telefono lima:(01)987-6543</a>
+                    <a href="#">Telefono provincia:(012)345-789</a>
+                    <a href="#">Comprobantes electrónicos</a>
+                </div>
+
+                <div class="footer-enlaces-container">
+                    <h4 class="footer-enlace-title">POLÍTICAS Y TÉRMINOS</h4>
+                    <a href="#">Políticas de privacidad</a>
+                    <a href="#">Políticas de delivery,pick up y autostarbucks</a>
+                    <a href="#">Términos y condiciones de la web</a>
+                    <a href="#">Términos y condiciones de promociones</a>
+                </div>
+            </div>
+            <div class="libro-reclamaciones"></div>
+            <div class="container-redes">
+                <h5>SÍGUENOS</h5>
+                <div class="redes">
+                    <i class='bx bxl-facebook-square'></i>
+                    <i class='bx bxl-instagram'></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/project_05.js"></script>
+</body>
+</html>

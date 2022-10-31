@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>!Piedra! !Papel! ¡Tijera!</title>
+    <link rel="stylesheet" href="./css/project01.css">
+</head>
+<body>
+    <div class="App">
+        <h1 class="title">
+            <span class="title_piedra">!Piedra!</span> 
+            <span class="title_papel">!Papel! </span>
+            <span class="title_tijera">¡Tijera!</span>
+        </h1>
+            
+        <div class="contenedor-opciones">
+            <div class="contenedor-opcion">
+                <img src="./img/proy1/piedra.png" alt="piedra" id="piedra" class="img derecha">
+            </div>
+            <div class="contenedor-opcion">
+                <img src="./img/proy1/papel.png" alt="papel" id="papel" class="img">
+            </div>
+            <div class="contenedor-opcion">
+                <img src="./img/proy1/tijera.png" alt="tijera" id="tijera" class="img">
+            </div>
+        </div>
+
+        <div class="competidores">
+            
+            <div class="btn">
+                <img src="./img/proy1/incognita.jpg" alt="Jugada del usuario" id="jugada_usuario">
+            </div>
+            
+            <p class="vs">vs</p>
+
+            <div class="btn">
+                <img src="./img/proy1/incognita.jpg" alt="Jugada de la maquina" id="jugada_maquina">
+            </div>
+        </div>
+        <h1 id="resultado" class="resultado oculto">Ganas😃</h1>
+    </div>
+
+    <script src="js/project_01.js"></script>
+</body>
+</html>
