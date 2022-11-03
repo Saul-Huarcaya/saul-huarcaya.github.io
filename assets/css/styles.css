@@ -488,7 +488,7 @@ img{
 
 /*----------------------------------FOOTER-----------------------------------*/
 .footer{
-    background-color: rgb(29, 31, 27);
+    background-color: black;
     color: #fff;
     text-align: center;
     font-weight: var(--font-semi);
